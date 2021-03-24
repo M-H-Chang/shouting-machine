@@ -5,11 +5,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
   <title>Shouting Machine</title>
 </head>
 
 <body>
+  <div class="container">
+    <h1>Shouting Machine</h1>
+    <form id="formOne">
+      <div class="user">
+        <label for="person">Please enter something to make it capitalized:</label>
+        <input type="text" class="form-control" id="person">
 
+      </div>
+
+      <div class="machine">
+        <label for="comp">Please enter something to make it capitalized:</label>
+        <input type="text" class="form-control" id="comp">
+      </div>
+
+      <button type="submit" class="btn btn-success">Capitalize</button>
+    </form>
+  </div>
 </body>
 
 </html>
