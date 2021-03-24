@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("#formOne").submit(function () {
     const personInput = $("input#person").val();
-    $(".person").append(personInput);
+    $(".person").text(personInput);
     event.preventDefault();
   });
 });
